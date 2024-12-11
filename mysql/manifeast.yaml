@@ -22,7 +22,7 @@ spec:
     matchLabels:
       componet: mysql
       project: expense
-      tier:db
+      tier: db
   serviceName: "nginx"
   replicas: 3 # by default is 1
   template:
